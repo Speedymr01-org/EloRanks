@@ -1,7 +1,7 @@
-package com.tdm.eloranks.manager;
+package com.Speedymr01.eloranks.manager;
 
-import com.tdm.eloranks.EloRanks;
-import com.tdm.eloranks.config.ConfigManager;
+import com.Speedymr01.eloranks.EloRanks;
+import com.Speedymr01.eloranks.config.ConfigManager;
 import org.bukkit.*;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;

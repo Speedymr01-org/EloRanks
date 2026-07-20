@@ -1,8 +1,8 @@
-package com.tdm.eloranks.commands;
+package com.Speedymr01.eloranks.commands;
 
-import com.tdm.eloranks.EloRanks;
-import com.tdm.eloranks.data.PlayerData;
-import com.tdm.eloranks.manager.EloManager;
+import com.Speedymr01.eloranks.EloRanks;
+import com.Speedymr01.eloranks.data.PlayerData;
+import com.Speedymr01.eloranks.manager.EloManager;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

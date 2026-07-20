@@ -1,4 +1,4 @@
-package com.tdm.eloranks.data;
+package com.Speedymr01.eloranks.data;
 
 import java.util.UUID;
 

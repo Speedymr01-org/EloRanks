@@ -1,6 +1,6 @@
-package com.tdm.eloranks.manager;
+package com.Speedymr01.eloranks.manager;
 
-import com.tdm.eloranks.EloRanks;
+import com.Speedymr01.eloranks.EloRanks;
 import net.kyori.adventure.title.Title;
 import net.kyori.adventure.text.serializer.legacy.LegacyComponentSerializer;
 import org.bukkit.Bukkit;

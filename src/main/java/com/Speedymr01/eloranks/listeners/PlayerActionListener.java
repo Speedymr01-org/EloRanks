@@ -1,7 +1,7 @@
-package com.tdm.eloranks.listeners;
+package com.Speedymr01.eloranks.listeners;
 
-import com.tdm.eloranks.EloRanks;
-import com.tdm.eloranks.manager.DuelManager;
+import com.Speedymr01.eloranks.EloRanks;
+import com.Speedymr01.eloranks.manager.DuelManager;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

@@ -1,4 +1,4 @@
-package com.tdm.eloranks.manager;
+package com.Speedymr01.eloranks.manager;
 
 import com.sk89q.worldedit.WorldEditException;
 import com.sk89q.worldedit.extent.clipboard.Clipboard;
@@ -11,7 +11,7 @@ import com.sk89q.worldedit.session.ClipboardHolder;
 import com.sk89q.worldedit.bukkit.BukkitWorld;
 import com.sk89q.worldedit.extension.platform.PlatformManager;
 import com.sk89q.worldedit.extension.platform.Platform;
-import com.tdm.eloranks.EloRanks;
+import com.Speedymr01.eloranks.EloRanks;
 import org.bukkit.*;
 import org.bukkit.block.Block;
 import org.bukkit.configuration.file.YamlConfiguration;

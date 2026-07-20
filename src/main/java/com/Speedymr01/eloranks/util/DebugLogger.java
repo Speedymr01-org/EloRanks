@@ -1,6 +1,6 @@
-package com.tdm.eloranks.util;
+package com.Speedymr01.eloranks.util;
 
-import com.tdm.eloranks.EloRanks;
+import com.Speedymr01.eloranks.EloRanks;
 
 /**
  * Debug logging utility that respects debug-mode config setting.

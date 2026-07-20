@@ -1,6 +1,6 @@
 name: EloRanks
 version: 2.1.1
-main: com.tdm.eloranks.EloRanks
+main: com.Speedymr01.eloranks.EloRanks
 api-version: 1.21
 author: TDM
 description: Competitive 1v1 Elo-Based Ranking System for Minecraft 1.21 servers with matchmaking, arenas, and dynamic K-factor

@@ -1,8 +1,8 @@
-package com.tdm.eloranks.config;
+package com.Speedymr01.eloranks.config;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
-import com.tdm.eloranks.EloRanks;
+import com.Speedymr01.eloranks.EloRanks;
 
 import java.io.File;
 import java.io.IOException;

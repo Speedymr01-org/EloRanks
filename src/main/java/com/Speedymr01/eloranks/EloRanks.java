@@ -1,23 +1,23 @@
-package com.tdm.eloranks;
+package com.Speedymr01.eloranks;
 
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bstats.bukkit.Metrics;
-import com.tdm.eloranks.commands.EloCommand;
-import com.tdm.eloranks.commands.DuelCommand;
-import com.tdm.eloranks.commands.LeaderboardCommand;
-import com.tdm.eloranks.commands.AdminCommand;
-import com.tdm.eloranks.listeners.PlayerDeathListener;
-import com.tdm.eloranks.listeners.BlockBreakListener;
-import com.tdm.eloranks.listeners.PlayerQuitListener;
-import com.tdm.eloranks.listeners.PlayerRespawnListener;
-import com.tdm.eloranks.listeners.PlayerActionListener;
-import com.tdm.eloranks.manager.EloManager;
-import com.tdm.eloranks.manager.DuelManager;
-import com.tdm.eloranks.manager.ArenaManager;
-import com.tdm.eloranks.manager.ScoreboardManager;
-import com.tdm.eloranks.manager.CountdownManager;
-import com.tdm.eloranks.config.ConfigManager;
-import com.tdm.eloranks.util.UpdateChecker;
+import com.Speedymr01.eloranks.commands.EloCommand;
+import com.Speedymr01.eloranks.commands.DuelCommand;
+import com.Speedymr01.eloranks.commands.LeaderboardCommand;
+import com.Speedymr01.eloranks.commands.AdminCommand;
+import com.Speedymr01.eloranks.listeners.PlayerDeathListener;
+import com.Speedymr01.eloranks.listeners.BlockBreakListener;
+import com.Speedymr01.eloranks.listeners.PlayerQuitListener;
+import com.Speedymr01.eloranks.listeners.PlayerRespawnListener;
+import com.Speedymr01.eloranks.listeners.PlayerActionListener;
+import com.Speedymr01.eloranks.manager.EloManager;
+import com.Speedymr01.eloranks.manager.DuelManager;
+import com.Speedymr01.eloranks.manager.ArenaManager;
+import com.Speedymr01.eloranks.manager.ScoreboardManager;
+import com.Speedymr01.eloranks.manager.CountdownManager;
+import com.Speedymr01.eloranks.config.ConfigManager;
+import com.Speedymr01.eloranks.util.UpdateChecker;
 
 /**
  * EloRanks - Competitive 1v1 Elo-Based Ranking System

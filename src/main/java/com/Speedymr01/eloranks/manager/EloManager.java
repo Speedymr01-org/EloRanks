@@ -1,8 +1,8 @@
-package com.tdm.eloranks.manager;
+package com.Speedymr01.eloranks.manager;
 
-import com.tdm.eloranks.EloRanks;
-import com.tdm.eloranks.config.ConfigManager;
-import com.tdm.eloranks.data.PlayerData;
+import com.Speedymr01.eloranks.EloRanks;
+import com.Speedymr01.eloranks.config.ConfigManager;
+import com.Speedymr01.eloranks.data.PlayerData;
 import org.bukkit.configuration.file.YamlConfiguration;
 
 import java.io.File;

@@ -1,7 +1,7 @@
-package com.tdm.eloranks.manager;
+package com.Speedymr01.eloranks.manager;
 
-import com.tdm.eloranks.EloRanks;
-import com.tdm.eloranks.data.PlayerData;
+import com.Speedymr01.eloranks.EloRanks;
+import com.Speedymr01.eloranks.data.PlayerData;
 import net.kyori.adventure.bossbar.BossBar;
 import net.kyori.adventure.text.serializer.legacy.LegacyComponentSerializer;
 import org.bukkit.Bukkit;

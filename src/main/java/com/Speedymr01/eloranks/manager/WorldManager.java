@@ -1,6 +1,6 @@
-package com.tdm.eloranks.manager;
+package com.Speedymr01.eloranks.manager;
 
-import com.tdm.eloranks.EloRanks;
+import com.Speedymr01.eloranks.EloRanks;
 import org.bukkit.ChatColor;
 import org.bukkit.World;
 import org.bukkit.WorldCreator;

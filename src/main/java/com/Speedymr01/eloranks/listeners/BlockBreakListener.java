@@ -1,6 +1,6 @@
-package com.tdm.eloranks.listeners;
+package com.Speedymr01.eloranks.listeners;
 
-import com.tdm.eloranks.EloRanks;
+import com.Speedymr01.eloranks.EloRanks;
 import org.bukkit.Material;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
