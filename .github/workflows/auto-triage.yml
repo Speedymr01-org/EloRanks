@@ -150,17 +150,7 @@ jobs:
               }
               
               console.log('Keyword fallback: priority=' + priority + ', effort=' + effort + ', type=' + typeLabel);
-            }
-            
-            // Add warning comment if AI failed
-            if (!usedAI) {
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.issue.number,
-                body: '**Warning:** AI triage unavailable, used keyword-based fallback. Priority/effort may need manual review.'
-              });
-              console.log('Added AI failure warning comment');
+              core.warning('AI triage unavailable - used keyword fallback. Results may need manual review.');
             }
             
             // Add type label if determined (not for version updates)
