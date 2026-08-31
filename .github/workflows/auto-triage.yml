@@ -53,17 +53,18 @@ jobs:
               try {
                 console.log('AI attempt ' + attempt + '/2');
                 
-                const response = await fetch('https://text.pollinations.ai/openai', {
+                const response = await fetch('https://ollama.com/api/chat', {
                   method: 'POST',
                   headers: {
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/json',
+                    'Authorization': 'Bearer 0845ea0da0a241b99a717ecb662adff9.1TQgxY3KGyf3NkmMUIsrR7QF'
                   },
                   body: JSON.stringify({
-                    model: 'gpt-oss-20b',
+                    model: 'gpt-oss:120b',
                     messages: [
                       { role: 'user', content: prompt }
                     ],
-                    temperature: 0.3
+                    stream: false
                   })
                 });
                 
@@ -72,7 +73,7 @@ jobs:
                 }
                 
                 const data = await response.json();
-                const content = data.choices[0].message.content;
+                const content = data.message.content;
                 
                 // Extract JSON from response (handle markdown code blocks)
                 let jsonStr = content;
