@@ -59,7 +59,7 @@ jobs:
                     'Content-Type': 'application/json'
                   },
                   body: JSON.stringify({
-                    model: 'openai-fast',
+                    model: 'gpt-oss-20b',
                     messages: [
                       { role: 'user', content: prompt }
                     ],
