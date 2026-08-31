@@ -74,6 +74,7 @@ jobs:
                 
                 const data = await response.json();
                 const content = data.message.content;
+                console.log('AI response: ' + content);
                 
                 // Extract JSON from response (handle markdown code blocks)
                 let jsonStr = content;
